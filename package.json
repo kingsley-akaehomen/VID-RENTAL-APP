@@ -1,0 +1,20 @@
+{
+  "name": "vid-app",
+  "version": "1.0.0",
+  "description": "App for video rental",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "akaehomen kingsley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
